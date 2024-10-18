@@ -1,12 +1,12 @@
 {
-  "homepage":"https://collins-kimotho.github.io/Portfolio-Website",
+  "homepage":"https://github.com/collins-kimotho.github.io/Portfolio-Website",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
