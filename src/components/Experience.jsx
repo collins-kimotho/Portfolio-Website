@@ -1,6 +1,6 @@
 import React from 'react'
 import { EXPERIENCES } from '../constants'
-import { motion } from "framer-motion"
+import { motion } from 'framer-motion'
 
 const Experience = () => {
   return (
@@ -13,7 +13,6 @@ const Experience = () => {
         <div>
             {EXPERIENCES.map((experience, index) => (
                 <div 
-                
                 className='mb-8 flex flex-wrap lg:justify-center' key={index}>
                     <motion.div 
                     whileInView={{opacity:1, x:0}}
